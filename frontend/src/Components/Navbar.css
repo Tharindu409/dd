@@ -1,0 +1,52 @@
+.nav-link:hover {
+  color: #005f99 !important;
+}
+
+.search-icon:hover {
+  color: #005f99 !important;
+}
+
+button:hover {
+  background-color: #b33c12 !important;
+}
+
+a:hover.authBtn {
+  background-color: #005f99 !important;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-black {
+  color: #000;
+}
+
+.logo-divider {
+  color: #000;
+  margin: 0 6px;
+}
+
+.logo-blue {
+  color: #007acc;
+}
+.navnav{
+    position: fixed;
+    top: 0;           
+    left: 0;           
+    width: 95%;       
+    z-index: 1000;
+}

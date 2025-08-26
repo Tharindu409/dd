@@ -1,0 +1,152 @@
+/* General page styles */
+.page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #b3d9ff, #ffffff);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #005f99;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.hero-button {
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #005f99;
+}
+
+/* Main content section */
+.content {
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f9fa;
+  padding: 30px 20px;
+  margin-top: 50px;
+  border-top: 2px solid #b3d9ff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-content h3,
+.footer-content h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #007acc;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #005f99;
+}
+
+.copy {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-image 1s ease-in-out; /* Smooth image transition */
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4); /* Overlay for readability */
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.hero-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1e90ff; /* Light blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Dots for hero slider */
+.hero-dots {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #1e90ff; /* Active dot color */
+}
+
+

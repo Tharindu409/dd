@@ -1,0 +1,88 @@
+/* Background image for the whole page */
+.form-container {
+  background: url('../../src/image/imageback.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.form-container h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ .form-card {
+  background: rgba(255, 255, 255, 0.1);  
+  backdrop-filter: blur(10px);  
+  border-radius: 15px;
+  padding: 30px;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+ 
+.form-title {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ 
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 14px;
+}
+
+.form-input::placeholder {
+  color: #eee;
+}
+
+ 
+.form-button {
+  width: 100%;
+  padding: 12px;
+  background: #4cafef;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-button:hover {
+  background: #3a9bdc;
+}
+
+ 
+.form-link-text {
+  color: white;
+  margin-top: 15px;
+}
+
+.form-link {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}

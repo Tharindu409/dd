@@ -1,0 +1,61 @@
+/* Register.css */
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #222; /* dark background */
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #00aaff;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  background: #333;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.register-form input:focus {
+  background: #444;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff; /* blue */
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #0056b3;
+}
+.form-container h2{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+ 

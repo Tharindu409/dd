@@ -1,0 +1,66 @@
+.view-users-container {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Table wrapper for horizontal scroll if needed */
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+/* Users table */
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+/* Table header */
+.users-table thead tr {
+  background-color: #1d4267;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Table cells */
+.users-table th,
+.users-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* Alternate row colors */
+.users-table tbody tr:nth-child(even) {
+  background-color: #f3f6fd;
+}
+
+/* Hover effect */
+.users-table tbody tr:hover {
+  background-color: #e0f0ff;
+}
+
+/* No data row */
+.no-data {
+  text-align: center;
+  color: #888;
+  padding: 20px 0;
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .users-table th,
+  .users-table td {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
