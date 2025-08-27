@@ -8,6 +8,21 @@ function Login() {
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
+  // login validation
+  
+    const validate = ()=>{
+      const newErrors = {};
+      if(!password){
+        newErrors.password = "Password is required"
+        alert("Password is required")
+  
+      }
+      else if(password.length < 6){
+         alert("Password must be at least 6 characters long")
+         newErrors.password = "Password must be at least 6 characters long"
+      }
+    }
+
   const handleLogin = async (e) => {
     e.preventDefault();
     if (!gmail || !password) {
